@@ -20,3 +20,6 @@ popularity_score = popularity_score.sort_values(by='popularity', ascending=False
 popular_books = book_features_df.loc[book_features_df['book_id'].isin(popularity_score.index)]
 popular_books = pd.merge(popular_books, popularity_score, on='book_id', how='left').sort_values(by='popularity', ascending=False)
 print(popular_books[['book_id', 'title', 'popularity']])
+
+# Add a comment to indicate Python version used
+# Analysis of this code is performed assuming compatibility with all Python 3 versions.
