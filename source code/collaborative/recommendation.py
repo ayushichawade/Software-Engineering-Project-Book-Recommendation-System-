@@ -3,7 +3,7 @@ import pandas as pd
 def main():
     books_df = pd.read_excel('Best_Books.xlsx')
 
-    user_fav_genres = input('Enter your favorite genres (separated by commas): ').split(',')
+    
 
     matched_books_df = filter_books_by_genre(books_df, user_fav_genres)
     collab_filtered_books_df = filter_books_by_user_ratings(matched_books_df)
