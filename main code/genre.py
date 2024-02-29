@@ -1,13 +1,25 @@
 import unittest
 import pandas as pd
+import os
 
 def recommend_books():
+    # Define safe file paths
+    books_file_path = os.path.join(os.getcwd(), 'Best_Books.xlsx')
+    interactions_file_path = os.path.join(os.getcwd(), 'goodreads_interactions.csv')
+    
+    # Validate file existence and accessibility
+    if not (os.path.exists(books_file_path) and os.path.exists(interactions_file_path)):
+        raise FileNotFoundError("One or more required files not found.")
+    
     # Read books data from Excel
-    books_df = pd.read_excel('Best_Books.xlsx')
+    books_df = pd.read_excel(books_file_path)
 
     # Get user's favorite genres
     user_fav_genres = input('Enter your favorite genres (separated by commas): ').split(',')
-
+    # Validate user input (ensure it's not empty, contains valid genres, etc.)
+    if not user_fav_genres:
+        raise ValueError("Please enter at least one genre.")
+    
     # Filter books based on user's favorite genres
     matched_books_df = books_df[books_df[['genre 1', 'genre 2', 'genre 3', 'genre 4', 'genre 5']].apply(lambda x: x.isin(user_fav_genres)).any(axis=1)]
 
@@ -18,7 +30,7 @@ def recommend_books():
     matched_books_df = matched_books_df[genre_counts >= 2].reset_index(drop=True)
 
     # Read user interactions data
-    user_df = pd.read_csv('goodreads_interactions.csv')
+    user_df = pd.read_csv(interactions_file_path)
 
     # Filter user ratings with at least 4 stars
     user_ratings_df = user_df[user_df['Rating'] >= 4]
@@ -48,4 +60,5 @@ class TestRecommendBooks(unittest.TestCase):
         self.assertGreater(recommended_books.shape[0], 0, "No books found for the given genres")
 
 # Run the tests
-unittest.main(argv=[''], exit=False)
+if __name__ == "__main__":
+    unittest.main(argv=[''], exit=False)
