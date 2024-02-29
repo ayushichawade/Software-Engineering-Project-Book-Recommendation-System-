@@ -18,5 +18,5 @@ popularity_score = popularity_score.sort_values(by='popularity', ascending=False
 
 # Display the top 50 popular books
 popular_books = book_features_df.loc[book_features_df['book_id'].isin(popularity_score.index)]
-popular_books = pd.merge(popular_books, popularity_score, on='book_id', how='left').sort_values(by='popularity', ascending=False)
+popular_books = pd.merge(popular_books, popularity_score, on='book_id', how='left', validate='one_to_one')
 print(popular_books[['book_id', 'title', 'popularity']])
