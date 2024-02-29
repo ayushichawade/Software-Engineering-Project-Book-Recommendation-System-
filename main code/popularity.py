@@ -5,7 +5,8 @@ book_features_df = pd.read_excel('Best_Books.xlsx')
 book_interactions_df = pd.read_csv('goodreads_interactions.csv')
 
 # Merge the two datasets on book_id
-df = pd.merge(book_features_df, book_interactions_df, on='book_id', how='left', validate='one_to_many')
+popular_books = pd.merge(popular_books, popularity_score, on='book_id', how='left', validate='one_to_one').sort_values(by='popularity', ascending=False)
+
 
 
 # Remove any duplicate entries or books with missing values
