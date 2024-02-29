@@ -8,8 +8,8 @@ book_interactions_df = pd.read_csv('goodreads_interactions.csv')
 df = pd.merge(book_features_df, book_interactions_df, on='book_id', how='left', validate='one_to_many')
 
 # Remove any duplicate entries or books with missing values
-df.drop_duplicates(inplace=True)
-df.dropna(inplace=True)
+df = df.drop_duplicates()
+df = df.dropna()
 
 # Calculate the popularity score
 popularity_score = df.groupby('book_id').agg({'is_read': 'sum', 'rating': 'mean', 'likedPercent': 'mean', 'numRatings': 'mean'})
