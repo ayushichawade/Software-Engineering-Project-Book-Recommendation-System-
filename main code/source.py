@@ -10,7 +10,8 @@ books_df = pd.read_excel('Best_Books.xlsx')
 users_df = pd.read_csv('goodreads_interactions.csv')
 
 
-merged_df = pd.merge(users_df, books_df, on='book_id')
+
+merged_df = pd.merge(users_df, books_df, on='book_id', how='inner', validate='many_to_one')
 
 
 genres = pd.get_dummies(merged_df['genre 1'])
