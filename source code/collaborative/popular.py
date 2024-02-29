@@ -5,7 +5,8 @@ import unittest
 class TestBookPopularity(unittest.TestCase):
     
     def setUp(self):
-        # Create sample datasets for testing
+        self.book_features_df = pd.read_excel('Best_Books.xlsx')
+        self.book_interactions_df = pd.read_csv('goodreads_interactions.csv')
         self.book_features_df = pd.DataFrame({
             'book_id': [1, 2, 3, 4, 5],
             'title': ['Book 1', 'Book 2', 'Book 3', 'Book 4', 'Book 5']
@@ -30,7 +31,8 @@ class TestBookPopularity(unittest.TestCase):
         df = df.dropna()
 
         # Check if there are any missing values
-        self.assertEqual(df.isnull().values.any(), False)
+        self.assertFalse(df.isnull().any().any())
+
 
     def test_duplicate_entries_handling(self):
         # Introduce duplicate entries to book_features_df
