@@ -10,6 +10,7 @@ user_fav_genres = input('Enter your favorite genres (separated by commas): ').sp
 genre_cols = ['genre 1', 'genre 2', 'genre 3', 'genre 4','genre 5']
 matched_books_df = books_df[books_df[genre_cols].isin(user_fav_genres).any(axis=1)]
 genre_counts = matched_books_df[genre_cols].apply(lambda x: sum(x.isin(user_fav_genres)), axis=1)
+
 matched_books_df = matched_books_df[genre_counts >= 2].reset_index(drop=True)
 
 
