@@ -54,9 +54,7 @@ def recommend_books(user_id, num_recommendations=50):
 
     # Filtered matrix
     filtered_matrix = autoencoder.predict(user_item_matrix)
-
-    # Filtered cosine similarity
-    filtered_cosine_sim = cosine_similarity(filtered_matrix)
+    cosine_similarity(filtered_matrix)
 
     user_row = user_item_matrix.loc[user_id]
     user_similarities = pd.Series(cosine_sim[user_id])
@@ -96,7 +94,7 @@ class TestRecommendations(unittest.TestCase):
 
     def test_content_of_recommendations(self):
         user_id = 1
-        recommendations = recommend_books(user_id=user_id)
+        recommend_books(user_id=user_id)
         # Add specific assertions to check the content of recommendations
 
     def test_performance(self):
