@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Check') {
+            steps {
+                git branch: 'main', url: 'https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                bat 'javac SignInAndLogin.java'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat 'javac SignInAndLoginTest.java'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy'
+            }
+        }
+    }
+}
