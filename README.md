@@ -5,7 +5,7 @@ Shift + Enter: run the current code <br>
 F5 : start/end debugging <br> 
 Alt+ Up/Down arrow: To move certain pieces of code to different places in the current file.<br> 
 Ctrl + Alt+ up/down arrow: when we want to make some edits with multiple lines, it is the efficient way.<br> 
-Ctrl + \: Split view / Side-by-side editing, allows you to use split view while editing your files. For me, it was very efficient for creating test files for the code.<br>      
+Ctrl + \: Split view / Side-by-side editing, allows you to use split view while editing your files. For me, it was very efficient for creating test files for the code.<br>
 Shift + Alt + down/up: copy the line up or down.<br>  
 
       
