@@ -9,3 +9,4 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 7. Shift + Alt + down/up: copy the lineup or down.<br>  
 
       
+https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Core_domain_chart.pdf 
