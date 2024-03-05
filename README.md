@@ -1,3 +1,10 @@
+# 5. Clean Code Development 
+•	Readability and Understandability: The code is generally easy to read, with clear function names and variable names. For example:load_books_data(), get_user_favorite_genres(), etc., have clear and descriptive names.
+
+
+
+
+
 # 9. IDE
 I worked with Visual Code Studio as an IDE for this project, and integrating it with GitHub enhanced efficiency and productivity.<br> 
 1. Ctrl+F: Find specific words (variables or def name) to edit or review them<br> 
