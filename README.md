@@ -1,3 +1,9 @@
+# 2. UML
+UML diagrams are a standardized visual representation technique used in software engineering to model software systems. <br>
+1. [Activity Diagram](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UML%20Diagrams/activity_diagram.pdf)<br>
+2. [Class Diagram](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UML%20Diagrams/class_diagram.pdf)<br>
+3. [Use Case](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UML%20Diagrams/usecase_diagram.pdf)<br>
+
 # 3. DDD
 A Domain-Driven Design (DDD) diagram visually represents the domain model, its entities, their relationships, and interactions. It serves as a blueprint for developers to understand and communicate the core concepts and structure of the software system.<br>
 1. [Event Storming to find domains](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Event_Storming.pdf) <br>
