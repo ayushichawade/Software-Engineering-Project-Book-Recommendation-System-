@@ -1,5 +1,5 @@
 # 5. Clean Code Development 
-•	Readability and Understandability: The code is generally easy to read, with clear function names and variable names. For example:load_books_data(), get_user_favorite_genres(), etc., have clear and descriptive names.<br>
+•	Readability and Understandability: The code is generally easy to read, with clear function names and variable names.<br> For example:load_books_data(), get_user_favorite_genres(), etc., have clear and descriptive names.<br>
 •	Modularity: Functions are modular, with separate components responsible for specific tasks, such as data loading, preprocessing, and model training.<br>
 •	DRY (Don't Repeat Yourself): While most functions adhere to the DRY principle by encapsulating reusable logic, the absence of the recommend_books() function, which could consolidate recommendation logic, might be considered a violation of DRY.<br>
 •	Testing: Unit tests are available in separate files, and showcase a proactive approach toward testing each function's behavior. This strategy aligns with industry best practices, fostering comprehensive validation of the code's functionality when leveraging testing frameworks like pytest or unittest.<br>
