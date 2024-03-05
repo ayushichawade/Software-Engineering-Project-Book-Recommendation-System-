@@ -1,3 +1,13 @@
+# 3. DDD
+A Domain-Driven Design (DDD) diagram visually represents the domain model, its entities, their relationships, and interactions. It serves as a blueprint for developers to understand and communicate the core concepts and structure of the software system.<br>
+1. Event Storming to find domains <br>
+2. Core Domain Charts and <br>
+3. Domain Mappings!! <br>
+
+
+
+
+
 # 5. Clean Code Development 
 1.	Readability and Understandability: The code is generally easy to read, with clear function names and variable names.<br> For example:load_books_data(), get_user_favorite_genres(), etc., have clear and descriptive names.<br>
 2.	Modularity: Functions are modular, with separate components responsible for specific tasks, such as data loading, preprocessing, and model training.<br>
@@ -25,6 +35,3 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 
 
       
-[here is the link ](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Core_domain_chart.pdf) 
-
-https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/86d8f819a2d504add10bcbd6f46c21e8122bca56/main%20code/recommendation.py#L8
