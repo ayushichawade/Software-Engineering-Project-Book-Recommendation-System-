@@ -1,8 +1,8 @@
 # 3. DDD
 A Domain-Driven Design (DDD) diagram visually represents the domain model, its entities, their relationships, and interactions. It serves as a blueprint for developers to understand and communicate the core concepts and structure of the software system.<br>
-1. Event Storming to find domains <br>
-2. Core Domain Charts and <br>
-3. Domain Mappings!! <br>
+1. [Event Storming to find domains](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Event_Storming.pdf) <br>
+2. [Core Domain Charts and](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Core_domain_chart.pdf) <br>
+3. [Domain Mappings](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Domain_mappings.pdf) <br>
 
 
 
