@@ -11,11 +11,6 @@ UML diagrams are a standardized visual representation technique used in software
 2. [Class Diagram](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UML%20Diagrams/class_diagram.pdf)<br>
 3. [Use Case](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UML%20Diagrams/usecase_diagram.pdf)<br>
 
-# 4. Metrics 
-For measuring metrics I used Sonarcloud<br>
-SonarCloud is a code quality and security analysis tool that helps developers improve their code by identifying bugs, vulnerabilities, and code smells. 
-
-
 
 
 # 3. DDD
@@ -25,7 +20,10 @@ A Domain-Driven Design (DDD) diagram visually represents the domain model, its e
 3. [Domain Mappings](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DDD/Domain_mappings.pdf) <br>
 
 
-
+# 4. Metrics 
+For measuring metrics I used Sonarcloud<br>
+SonarCloud is a code quality and security analysis tool that helps developers improve their code by identifying bugs, vulnerabilities, and code smells. 
+[Sonarcloud_Metrics](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/metrics)
 
 
 # 5. Clean Code Development 
