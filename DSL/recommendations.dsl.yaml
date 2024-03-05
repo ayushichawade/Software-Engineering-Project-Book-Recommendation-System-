@@ -1,0 +1,5 @@
+recommendations:
+  by_genre:
+    Mystery: 46  
+  by_popularity: 39
+  by_user_rating: 37
