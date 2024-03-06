@@ -70,9 +70,9 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 
  # 10. DSL
  Domain-specific language, is a type of programming language designed for specific tasks or industries, making it easier for people in those fields to write code that directly addresses their needs without unnecessary complexity.<br>
-[DSL code](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/DSL.py)
-[Recommendation_dsl](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendation.dsl.py)
-[Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)
+[DSL code](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/DSL.py)<br>
+[Recommendation_dsl](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendation.dsl.py)<br>
+[Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)<br>
  
 
 
