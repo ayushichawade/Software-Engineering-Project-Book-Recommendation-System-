@@ -65,7 +65,17 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 4.	 Alt+ Up/Down arrow: To move certain pieces of code to different places in the current file.<br> 
 5.	Ctrl + Alt+ up/down arrow: when we want to make some edits with multiple lines, it is the efficient way.<br> 
 6.	Ctrl + \: Split view / Side-by-side editing, allows you to use split view while editing your files. For me, it was very efficient for creating test files for the code.<br>
-7.	Shift + Alt + down/up: copy the lineup or down.<br>  
+7.	Shift + Alt + down/up: copy the lineup or down.<br>
+
+
+ # 10. DSL
+ Domain-specific language, is a type of programming language designed for specific tasks or industries, making it easier for people in those fields to write code that directly addresses their needs without unnecessary complexity.<br>
+[DSL code](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/DSL.py)
+[Recommendation_dsl](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendation.dsl.py)
+[Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)
+ 
+
+
 
 
       
