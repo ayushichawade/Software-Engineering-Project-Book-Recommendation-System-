@@ -1,4 +1,6 @@
 # Book Recommendation System 
+A book recommendation system is a software tool that suggests books to users based on their preferences, reading history, and similar users' behavior, enhancing their discovery experience. By analyzing user data and book attributes, these systems provide personalized recommendations, helping users find relevant and interesting books efficiently.<br>
+Here is the UI [Book Recommendation System](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/UI/UI.pdf)<br>
 
 
 
@@ -40,10 +42,10 @@ Naming conventions are consistent.
 
 # 6. Build Management 
 Maven is a powerful automation tool probably used for Java projects, as my codes are in Python language I have built a separate code for build management.<br>
-[Signin/Login](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven/src/main/java)<br>
-[POM.xml file](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/pom.xml)<br>
-[Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven)<br>
-[Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/maven.pdf)<br>
+1. [Signin/Login](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven/src/main/java)<br>
+2. [POM.xml file](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/pom.xml)<br>
+3. [Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven)<br>
+4. [Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/maven.pdf)<br>
 
 # 7. Unit Tests
 Unit tests are created to verify individual components or functions of code, ensuring they produce the expected output for given inputs, which helps identify bugs early, maintain code integrity, and facilitate code refactoring and maintenance.<br>
@@ -70,9 +72,9 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 
  # 10. DSL
  Domain-specific language, is a type of programming language designed for specific tasks or industries, making it easier for people in those fields to write code that directly addresses their needs without unnecessary complexity.<br>
-[DSL code](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/DSL.py)<br>
-[Recommendation_dsl](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendation.dsl.py)<br>
-[Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)<br>
+1. [DSL code](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/DSL.py)<br>
+2. [Recommendation_dsl](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendation.dsl.py)<br>
+3. [Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)<br>
  
 
 
