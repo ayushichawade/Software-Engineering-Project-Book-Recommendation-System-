@@ -38,7 +38,23 @@ Naming conventions are consistent.
 
 
 
+# 6. Build Management 
+Maven is a powerful automation tool probably used for Java projects, as my codes are in Python language I have built a separate code for build management.<br>
+[Signin/Login](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven/src/main/java)<br>
+[POM.xml file](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/pom.xml)<br>
+[Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/maven)<br>
+[Output](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/maven/maven.pdf)<br>
 
+# 7. Unit Tests
+Unit tests are created to verify individual components or functions of code, ensuring they produce the expected output for given inputs, which helps identify bugs early, maintain code integrity, and facilitate code refactoring and maintenance.<br>
+1. [Genre Test](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/test/genre_test.py)<br>
+2. [Popularity Test](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/test/popularity_test.py)<br>
+3. [Recommendation Test](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/test/recommendation_test.py)<br>
+
+
+# 8. Continuous Delivery (Pipeline):
+For the pipeline, I have used Jenkins, an open-source automation server used for continuous delivery(CI/CD), automating the building, testing, and deployment of software projects.<br>
+[Jenkins](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/Jenkins%20(CI-CD)) <br>
 
 
 # 9. IDE
