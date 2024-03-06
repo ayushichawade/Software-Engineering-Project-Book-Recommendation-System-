@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.22631.3235]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>cd downloads
+
+C:\Users\DELL\Downloads>git clone https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-.git
+Cloning into 'Software-Engineering-Project-Book-Recommendation-System-'...
+remote: Enumerating objects: 581, done.
+remote: Counting objects: 100% (266/266), done.
+remote: Compressing objects: 100% (125/125), done.
+remote: Total 581 (delta 172), reused 213 (delta 135), pack-reused 315
+Receiving objects: 100% (581/581), 1.32 MiB | 1.79 MiB/s, done.
+
+Resolving deltas: 100% (242/242), done.
+
+C:\Users\DELL\Downloads>cd C:\Users\DELL\Downloads\Software-Engineering-Project-Book-Recommendation-System-\maven
+
+C:\Users\DELL\Downloads\Software-Engineering-Project-Book-Recommendation-System-\maven>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< software:engineering >------------------------
+[INFO] Building engineering 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ engineering ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\DELL\Downloads\Software-Engineering-Project-Book-Recommendation-System-\maven\src\main\resources
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ engineering ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\DELL\Downloads\Software-Engineering-Project-Book-Recommendation-System-\maven\target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.797 s
+[INFO] Finished at: 2024-03-06T01:01:03+01:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\DELL\Downloads\Software-Engineering-Project-Book-Recommendation-System-\maven>mvn exec:java -Dexec.mainClass="SignInAndLogin"
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< software:engineering >------------------------
+[INFO] Building engineering 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- exec:3.2.0:java (default-cli) @ engineering ---
+1. Sign Up
+2. Login
+3. Exit
+Choose an option: 1
+Enter username: Ayushi Chawade
+Enter password: User registered successfully.
+1. Sign Up
+2. Login
+3. Exit
+Choose an option: 2
+Enter username: Ayushi Chawade
+Enter password: Login successful. Welcome, Ayushi!
+1. Sign Up
+2. Login
+3. Exit
+Choose an option: 3
+Exiting the program.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.017 s
+[INFO] Finished at: 2024-03-06T01:02:37+01:00
+[INFO] ------------------------------------------------------------------------
