@@ -24,7 +24,8 @@ def calculate_popularity_score(df, score_function):
 def display_popular_books(book_features_df, popularity_score):
     # Display the top 50 popular books
     popular_books = book_features_df.loc[book_features_df['book_id'].isin(popularity_score.index)]
-    popular_books = pd.merge(popular_books, popularity_score, on='book_id', how='left', validate='one_to_one').sort_values(by='popularity', ascending=False)
+    popular_books = pd.merge(popular_books, 
+                             popularity_score, on='book_id', how='left', validate='one_to_one').sort_values(by='popularity', ascending=False)
     print(popular_books[['book_id', 'title', 'popularity']])
 
 if __name__ == '__main__':
