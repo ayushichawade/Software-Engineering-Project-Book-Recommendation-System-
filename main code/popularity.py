@@ -12,17 +12,14 @@ def merge_datasets(book_features_df, book_interactions_df):
     return merged_df
 
 def clean_data(df):
-    # Remove any duplicate entries or books with missing values
-    df = df.dropna()
-    df = df.drop_duplicates()
-    return df
+    # Create a new DataFrame with no duplicate entries or books with missing values
+    cleaned_df = df.dropna().drop_duplicates()
+    return cleaned_df
 
-def calculate_popularity_score(df):
-    # Calculate the popularity score
-    popularity_score = df.groupby('book_id').agg({'is_read': 'sum', 'rating': 'mean', 'likedPercent': 'mean', 'numRatings': 'mean'})
-    popularity_score['popularity'] = popularity_score['is_read'] / popularity_score['is_read'].sum() + popularity_score['rating'] + popularity_score['likedPercent'] + popularity_score['numRatings']
-    popularity_score = popularity_score.sort_values(by='popularity', ascending=False).head(50)
-    return popularity_score
+def calculate_popularity_score(df, score_function):
+    # Calculate the popularity score using a custom score function
+    popularity_score = score_function(df)
+    return popularity_score.head(50)
 
 def display_popular_books(book_features_df, popularity_score):
     # Display the top 50 popular books
@@ -40,8 +37,15 @@ if __name__ == '__main__':
     # Clean data
     cleaned_df = clean_data(merged_df)
 
-    # Calculate popularity score
-    popularity_score = calculate_popularity_score(cleaned_df)
+    # Define a higher-order function for calculating the popularity score
+    def custom_popularity_score(df):
+        # Define the score calculation
+        score = df.groupby('book_id').agg({'is_read': 'sum', 'rating': 'mean', 'likedPercent': 'mean', 'numRatings': 'mean'})
+        score['popularity'] = score['is_read'] / score['is_read'].sum() + score['rating'] + score['likedPercent'] + score['numRatings']
+        return score.sort_values(by='popularity', ascending=False)
+
+    # Calculate popularity score using the custom function
+    popularity_score = calculate_popularity_score(cleaned_df, custom_popularity_score)
 
     # Display popular books
     display_popular_books(book_features_df, popularity_score)
