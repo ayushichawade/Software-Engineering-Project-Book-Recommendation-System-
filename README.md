@@ -29,10 +29,12 @@ A Domain-Driven Design (DDD) diagram visually represents the domain model, its e
 # 4. Metrics 
 For measuring metrics I used Sonarcloud<br>
 SonarCloud is a code quality and security analysis tool that helps developers improve their code by identifying bugs, vulnerabilities, and code smells. 
-[Sonarcloud_Metrics](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/metrics)
+[Sonarcloud_Metrics](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/tree/main/metrics)<br>
 
 
 # 5. Clean Code Development 
+Clean code is easy-to-read, organized, and follows good coding practices, making it simpler to understand and maintain for developers.
+[here is a cheat sheet](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/main%20code/cheetsheet.md) 
 1.	Readability and Understandability: The code is generally easy to read, with clear function names and variable names.<br> For example:load_books_data(), get_user_favorite_genres(), etc., have clear and descriptive names.<br>
 2.	Modularity: Functions are modular, with separate components responsible for specific tasks, such as data loading, preprocessing, and model training.<br>
 3.	DRY (Don't Repeat Yourself): While most functions adhere to the DRY principle by encapsulating reusable logic, the absence of the recommend_books() function, which could consolidate recommendation logic, might be considered a violation of DRY.<br>
@@ -81,6 +83,9 @@ I worked with Visual Code Studio as an IDE for this project, and integrating it 
 3. [Recommendation_dsl_yaml](https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/main/DSL/recommendations.dsl.yaml)<br>
  
 
+# 11. Functional Programming 
+1. Final Data Structures:The popularity_score DataFrame is created as the final result, which is immutable and represents the final output of the popularity score calculation.<br>
+https://github.com/ayushichawade/Software-Engineering-Project-Book-Recommendation-System-/blob/101ed3a70754a1b1534c61176043b29cb55b12eb/main%20code/popularity.py#L28
 
 
 
