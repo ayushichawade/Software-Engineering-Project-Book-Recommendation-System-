@@ -8,7 +8,8 @@ Source code:<br>
 
 
 # 1. Git 
-I used GitHub to save and update all my project work. Whenever I made changes or added something new to my project, I uploaded it to GitHub. This helped me keep track of my progress and have a backup of my work
+I used GitHub to save and update all my project work. Whenever I made changes or added something new to my project, I uploaded it to GitHub. This helped me keep track of my progress and have a backup of my work<br>
+[my work](https://github-readme-streak-stats.herokuapp.com/?user=ayushichawade&theme=cobalt)](https://github.com/ayushichawade)
 
 # 2. UML
 UML diagrams are a standardized visual representation technique used in software engineering to model software systems. <br>
